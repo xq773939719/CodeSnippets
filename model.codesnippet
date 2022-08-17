@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>model</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#ModelName#&gt; : NSObject
+
+@property (nonatomic, copy) NSString *&lt;#PropertyName#&gt;;
+@property (nonatomic, strong) NSArray *&lt;#PropertyName#&gt;;
+@property (nonatomic, assign) BOOL *&lt;#PropertyName#&gt;;
+
+@property (nonatomic, copy) void(^&lt;#BlockName#&gt;)(&lt;#Params#&gt;);
+@property (nonatomic, copy) &lt;#ReturnValue#&gt;(^&lt;#BlockName#&gt;)(&lt;#Params#&gt;);
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2328BD0C-FC2D-41BA-AEFF-7E6EC84CB8B6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
