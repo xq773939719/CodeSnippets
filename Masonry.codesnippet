@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strongify</string>
+	<string>Masonry</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongify(self);</string>
+	<string>#import &lt;Masonry/Masonry.h&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2B6EDD27-B4DA-4988-BA2C-E9DD0FCA8448</string>
+	<string>EBE19341-6E3F-4FFE-A550-3F0A9D530AD0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Masonry</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>strongify</string>
+	<string>Masonry</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
