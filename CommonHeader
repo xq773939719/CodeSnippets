@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>IDECodeSnippetCompletionPrefix</key>
+		<string>CommonHeader</string>
+		<key>IDECodeSnippetCompletionScopes</key>
+		<array>
+			<string>All</string>
+		</array>
+		<key>IDECodeSnippetContents</key>
+		<string>#import &lt;Foundation/Foundation.h&gt;
+#import &lt;UIKit/UIKit.h&gt;
+#import &lt;CoreFoundation/CoreFoundation.h&gt;
+#import &lt;CoreGraphics/CoreGraphics.h&gt;
+#import &lt;CoreImage/CoreImage.h&gt;
+#import &lt;CoreVideo/CoreVideo.h&gt;
+#import &lt;CoreMedia/CoreMedia.h&gt;
+#import &lt;CoreText/CoreText.h&gt;
+#import &lt;AVFoundation/AVFoundation.h&gt;
+#import &lt;objc/runtime.h&gt;
+#import &lt;mach/mach.h&gt;
+#import &lt;sys/sysctl.h&gt;
+</string>
+		<key>IDECodeSnippetIdentifier</key>
+		<string>23CB11A6-3AA1-4E30-8113-89C6E6A53643</string>
+		<key>IDECodeSnippetLanguage</key>
+		<string>Xcode.SourceCodeLanguage.Objective-C</string>
+		<key>IDECodeSnippetSummary</key>
+		<string>CommonHeader</string>
+		<key>IDECodeSnippetTitle</key>
+		<string>CommonHeader</string>
+		<key>IDECodeSnippetUserSnippet</key>
+		<true/>
+		<key>IDECodeSnippetVersion</key>
+		<integer>2</integer>
+	</dict>
+</plist>

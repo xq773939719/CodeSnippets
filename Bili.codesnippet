@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#import &lt;BBHD2ScreenSwitch/BBHD2ScreenSwitchHelper.h&gt;
+	<string>#import &lt;UIKit/UIKit.h&gt;
+#import &lt;BBHD2ScreenSwitch/BBHD2ScreenSwitchHelper.h&gt;
 #import &lt;BFCApiClient/BFCApiClient.h&gt;
 #import &lt;BFCAccount/BFCAccount.h&gt;
 #import &lt;BFCUIKit/BFCRuler.h&gt;
@@ -19,14 +20,19 @@
 #import &lt;BFCAccount/BFCAccount.h&gt;
 #import &lt;BFCNeuron/BFCNeuron.h&gt;
 #import &lt;BFCTheme/BFCTheme.h&gt;
+#import &lt;BFCWebImage/BFCWebImageView.h&gt;
 #import &lt;BFCWebImageWrapper/UIImageView+BFCWebCache.h&gt;
 #import &lt;BFCUIKit/UIImage+DefaultTVPlaceholderImage.h&gt;
 #import &lt;BFCBandwidth/BFCBandwidth.h&gt;
+#import &lt;BFCReachability/BFCReachability.h&gt;
 #import &lt;BFCPreferences/BFCAppPreferences.h&gt;
 #import &lt;LegacyR/LegacyR.h&gt;
 #import &lt;CommonR/CommonR.h&gt;
 #import &lt;BBEduR/BBEduR.h&gt;
-</string>
+#import &lt;BFCMemex/BFCMemexConfig.h&gt;
+#import &lt;BFCMemex/BFCMemexABTest.h&gt;
+#import &lt;Toast/UIView+Toast.h&gt;
+#import &lt;TopmostView.h&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>244845FE-FA35-4858-9EB9-C6F41DF736D3</string>
 	<key>IDECodeSnippetLanguage</key>
