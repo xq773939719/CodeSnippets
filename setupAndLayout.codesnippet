@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>properWeakReadonly</string>
+	<string>SetupAndLayout</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>- (void)setupViews {
+    &lt;#Code#&gt;
+}
+
+- (void)layoutViews {
+    &lt;#Code#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3BDAAACA-931A-43D6-B7B4-A446285E098B</string>
+	<string>021E1169-6207-4F2C-A10A-06448E6C8538</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>SetupAndLayout</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property For Weak And Readonly</string>
+	<string>SetupAndLayout</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

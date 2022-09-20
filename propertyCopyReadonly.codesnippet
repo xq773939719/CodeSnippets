@@ -10,7 +10,7 @@
 		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, copy, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
+	<string>@property (nonatomic, copy, readonly) &lt;#type#&gt; *&lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BE7A7A16-BA79-45AF-A62B-869A12C1E257</string>
 	<key>IDECodeSnippetLanguage</key>
