@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>attachment</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSMutableAttributedString *attributedString = [NSMutableAttributedString new];
+UIImage *image = &lt;#UIImage#&gt;;
+CGSize size = &lt;#CGSize#&gt;;
+NSMutableAttributedString *attachment = [NSMutableAttributedString yy_attachmentStringWithContent:image
+                                                                                      contentMode:UIViewContentModeCenter
+                                                                                   attachmentSize:size
+                                                                                      alignToFont:&lt;#Font#&gt;
+                                                                                        alignment:YYTextVerticalAlignmentCenter];
+[attributedString appendAttributedString:attachment];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EB380F41-C4E4-4148-9E18-DB82F9774FE4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>attachment</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>attachment</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
