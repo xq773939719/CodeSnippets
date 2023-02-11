@@ -3,24 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaMark</string>
+	<string>swiftLabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>@objc
+public lazy var label: UILabel = {
+    let label: UILabel = UILabel()
+    label.font = &lt;#Font#&gt;
+    &lt;#TitleColor#&gt;
+    label.numberOfLines = 0
+    label.text = ""
+    label.textAlignment = &lt;#textAlignment#&gt;
+    label.adjustsFontSizeToFitWidth = true
+    label.sizeToFit()
+    return label
+}()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B9FA813-1CC1-4973-A55D-FAC087F2F75D</string>
+	<string>B13E4B91-C11D-4C71-B6B3-1D698BEF329C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pragmaMark</string>
+	<string>swiftLabel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragmaMark</string>
+	<string>swiftLabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

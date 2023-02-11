@@ -3,24 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaMark</string>
+	<string>mapper</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>+ (NSDictionary &lt;&lt;#A#&gt; *, &lt;#B#&gt; *&gt; *)mapper {
+    return @{
+        &lt;#A#&gt;: &lt;#B#&gt;,
+        &lt;#A#&gt;: &lt;#B#&gt;,
+        &lt;#A#&gt;: &lt;#B#&gt;,
+    };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B9FA813-1CC1-4973-A55D-FAC087F2F75D</string>
+	<string>64755BA5-A074-4373-801A-F3DDD86628AD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pragmaMark</string>
+	<string>mapper</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragmaMark</string>
+	<string>mapper</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

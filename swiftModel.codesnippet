@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftModel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// ①
+public final class &lt;#SwiftModel#&gt; : NSObject {
+    @objc
+    public private(set) var a: String
+    
+    @objc
+    public private(set) var b: String
+    
+    @objc
+    public init(_ a: String, _ b: String) {
+        self.a = a
+        self.b = b
+    }
+}
+
+
+// ②
+public final class &lt;#SwiftModel#&gt; : NSObject {
+    @objc
+    public var a: String = ""
+    
+    @objc
+    public var b: String = ""
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AE8D702D-4CD3-4A7B-A1E6-9CC937EDEA73</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swiftModel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swiftModel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

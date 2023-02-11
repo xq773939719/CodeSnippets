@@ -3,24 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaMark</string>
+	<string>swiftLayoutPriority</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>view.setContentHuggingPriority(&lt;#defaultPriority#&gt;, for: &lt;#for#&gt;)
+view.setContentCompressionResistancePriority(&lt;#defaultPriority#&gt;, for: &lt;#for#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B9FA813-1CC1-4973-A55D-FAC087F2F75D</string>
+	<string>0A23A5D2-03A0-4AFA-8DCA-7B11EFE66584</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pragmaMark</string>
+	<string>swiftLayoutPriority</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragmaMark</string>
+	<string>swiftLayoutPriority</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

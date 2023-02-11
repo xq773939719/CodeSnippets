@@ -3,24 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaMark</string>
+	<string>spaceView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>static UIView * SpaceView(CGFloat height) {
+    UIView *view = [[UIView alloc] init];
+    [view.heightAnchor constraintEqualToConstant:height].active = YES;
+    return view;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B9FA813-1CC1-4973-A55D-FAC087F2F75D</string>
+	<string>C427C244-2EB7-4DDD-950B-EE7EEAD34ED8</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pragmaMark</string>
+	<string>spaceView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragmaMark</string>
+	<string>spaceView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

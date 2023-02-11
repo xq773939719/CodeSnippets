@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragmaMark</string>
+	<string>swiftThemeRx</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Section#&gt;</string>
+	<string>ThemeManager.shared.rx.didChange.subscribe(onNext: { _ in
+    
+}).disposed(by: disposeBag)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3B9FA813-1CC1-4973-A55D-FAC087F2F75D</string>
+	<string>0594FC03-ED20-4B0F-A3AC-89AA6F7A6858</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>pragmaMark</string>
+	<string>swiftThemeRx</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pragmaMark</string>
+	<string>swiftThemeRx</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>api</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@class RACSignal;
+
+@interface &lt;#ApiModel#&gt; : NSObject
+
+@end
+
+@interface &lt;#ApiResponseModel#&gt; : NSObject &lt;BFCApiModel&gt;
+
+@end
+
+@interface &lt;#Api#&gt; : NSObject
+
++ (RACSignal *)excute:(&lt;#ApiModel#&gt; *)model;
+
+@end
+
+// ------
+
+@implementation &lt;#ApiModel#&gt;
+
+@end
+
+@implementation &lt;#ResponseModel#&gt;
+
+@end
+
+@implementation &lt;#Api#&gt;
+
++ (RACSignal *)excute:(&lt;#ApiModel#&gt; *)model {
+    return [[RACSignal createSignal:^RACDisposable *(id&lt;RACSubscriber&gt; subscriber) {
+        BFCApiOptions *options = [BFCApiOptions new];
+        options.requestMethod = BFCApiRequestMethodGET;
+        options.baseUrl = &lt;#BaseUrl#&gt;;
+        options.modelDescriptions = @[[BFCApiModelDescription modelWith:@"/data"
+                                                           mappingClass:[&lt;#ApiResponseModel#&gt; class]
+                                                                isArray:NO]];
+        options.params = @{
+            
+        };
+        
+        BFCApiRequest *request = [[BFCApiRequest alloc] initWithOptions:options];
+        request.completionHandler = ^(NSDictionary *result) {
+            &lt;#ApiResponseModel#&gt; *responseModel = result[@"/data"];
+            if (!responseModel) {
+                [subscriber sendError:nil];
+            }
+            [subscriber sendNext:responseModel];
+            [subscriber sendCompleted];
+        };
+        request.errorHandler = ^(NSError *error, NSDictionary * result) {
+            [subscriber sendError:error];
+        };
+        [request requestAsync];
+        return [RACDisposable disposableWithBlock:^{
+            if (![request isCancelled]) {
+                [request cancel];
+            }
+        }];
+    }] deliverOnMainThread];
+}
+
+@end
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C180E3C9-9B28-47DF-9130-7AFCD96185EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>api</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>api</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

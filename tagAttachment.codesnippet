@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tagAttachment</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *tagButton = [UIButton new];
+UIFont *tagFont = [UIFont edu_pingFangRegularFont:&lt;#FontSize#&gt;];
+[tagButton setTitle:label forState:UIControlStateNormal];
+tagButton.backgroundColor = &lt;#Color#&gt;;
+tagButton.layer.masksToBounds = YES;
+tagButton.layer.cornerRadius = 0;
+tagButton.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+tagButton.titleLabel.font = tagFont;
+[tagButton sizeToFit];
+[tagButton invalidateIntrinsicContentSize];
+[tagButton setNeedsLayout];
+[tagButton layoutIfNeeded];
+        
+CGSize size = tagButton.bounds.size;
+NSAttributedString *tagButtonAttachment = [NSAttributedString yy_attachmentStringWithContent:tagButton
+                                                                                 contentMode:UIViewContentModeCenter
+                                                                              attachmentSize:size
+                                                                                 alignToFont:&lt;#AlignToFont#&gt;
+                                                                                   alignment:YYTextVerticalAlignmentCenter];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5D1E648C-5253-4131-9A15-391ED25849C7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tagAttachment</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tagAttachment</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

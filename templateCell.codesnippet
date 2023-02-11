@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>templateCell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#Cell#&gt; *)templateCell {
+    if (_templateCell) return _templateCell;
+    _templateCell = [&lt;#Cell#&gt; new];
+    _templateCell.contentView.translatesAutoresizingMaskIntoConstraints = NO;
+    return _templateCell;
+}
+
+- (NSLayoutConstraint *)templateConstraint {
+    if (_templateConstraint) return _templateConstraint;
+    _templateConstraint = [self.templateCell.contentView.widthAnchor constraintEqualToConstant:0];
+    _templateConstraint.active = YES;
+    return _templateConstraint;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>512AE05B-97E4-49E5-BC8D-D14A7274C9D6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>templateCell</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>templateCell</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
