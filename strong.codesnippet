@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@strongify(self)</string>
+	<string>@strongify(self);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B3263984-191E-473B-AA0B-07793FD740DC</string>
 	<key>IDECodeSnippetLanguage</key>
