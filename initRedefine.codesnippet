@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWith&lt;#Some#&gt;:(BBEduSeason *)&lt;#Some#&gt;;
+	<string>- (instancetype)initWith&lt;#Some#&gt;:(NSObject *)&lt;#Some#&gt;;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;</string>
