@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// XQ [PRE, TODO, DOING, DONE] -&gt; (&lt;#Phase#&gt;) {&lt;#Mark#&gt;}</string>
+	<string>// {XQ} {&lt;#Phase#&gt;} {&lt;#Mark#&gt;}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>BFF12A08-3B09-4EB9-817A-67034A72C79E</string>
 	<key>IDECodeSnippetLanguage</key>
