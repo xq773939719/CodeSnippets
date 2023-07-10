@@ -32,6 +32,12 @@ public final class &lt;#SwiftModel#&gt; : NSObject {
     
     @objc
     public var b: String = ""
+}
+
+// ③
+public final class &lt;#SwiftModel#&gt; {
+    public var a: String = ""
+    public var b: String = ""
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>AE8D702D-4CD3-4A7B-A1E6-9CC937EDEA73</string>
