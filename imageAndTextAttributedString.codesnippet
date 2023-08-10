@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imageAndTextAttributedString</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+static private func constructAttributedString(text: String,
+                                              textColor: UIColor,
+                                              font: UIFont,
+                                              image: UIImage,
+                                              imageSize: CGSize) -&gt; NSAttributedString {
+    let attributedString = NSMutableAttributedString()
+    
+    let attachment = NSTextAttachment()
+    attachment.image = image
+    let offset = font.descender + (font.lineHeight - imageSize.height) / 2
+    attachment.bounds = CGRect(x: 0, y: offset, width: imageSize.width, height: imageSize.height)
+    let attachmentAttributedString = NSAttributedString(attachment: attachment)
+    attributedString.append(attachmentAttributedString)
+    
+    let textAttributedString = NSMutableAttributedString(string: text)
+    textAttributedString.yy_color = textColor
+    attributedString.append(textAttributedString)
+    
+    return attributedString
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F336B3EE-BC5F-400F-A898-6B9296901995</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>imageAndTextAttributedString</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>imageAndTextAttributedString</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftYYLabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>self.titleLabel.invalidateIntrinsicContentSize()
+self.titleLabel.setNeedsLayout()
+self.titleLabel.layoutIfNeeded()
+self.titleLabel.preferredMaxLayoutWidth = self.titleLabel.viewWidth</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>23239901-288A-48AA-BE69-525E6EB16C80</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swiftYYLabel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swiftYYLabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftContentPriority</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>label.setContentHuggingPriority(.defaultLow, for: .horizontal)
+label.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+label.setContentHuggingPriority(.defaultHigh, for: .vertical)
+label.setContentCompressionResistancePriority(.defaultHigh, for: .vertical)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>10A5B336-7138-4A94-AB9F-316076AA2A84</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>swiftContentPriority</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swiftContentPriority</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
